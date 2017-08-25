@@ -3,8 +3,11 @@
         <head>
             <lang="en">
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, 
+            maximum-scale=1.0, minimum-scale=1.0" >
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+            <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
             <link rel="stylesheet" href="css/estilo.css">
             <title>eBlog</title>
         </head>
@@ -12,23 +15,30 @@
             <header>
                 <div class="titulo">
                     <h1>eBlog</h1>
+                            
+                </div>
+                <div class="social">
+                        <a href="#" class="fa fa-facebook fa-3x"></a>
+                        <a href="#" class="fa fa-twitter fa-3x"></a>
+                        
+
                 </div>
             </header>
             <hr>
             <nav class="menu">
-                <fieldset class="box1">
-                    <legend></legend>
-                <ul>
-                    <LI class="menu-left">Google</LI>
-                    <LI class="menu-center">Yahoo</LI>
-                    <LI class="menu-right">Gmail</LI>
-                </ul>
-                </fieldset>
+                    <ul>
+                            <li><a class="active" href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                            <li><a href="#news">News</a></li>
+                            <li><a  href="#contact">About</a></li>
+                        
+                            <li style="float:right"><a href="#about">contact</a></li>
+                          </ul>        
             </nav>
-            <div class="contenido-principal">
+            <br>
+            <dv class="contenido-principal">
                 <div class="principal">
                     <fieldset>
-                        <legend>Articulo</legend>
+                        <legend class="borde">Articulo</legend>
                             <h2>primero</h2>
                                 <hr class="hr2"> 
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolorem at explicabo 
@@ -37,7 +47,7 @@
                     </fieldset>
                 </div>
                 <br>
-                <div class="primero">
+                <div class="principal">
                     <fieldset>
                         <legend>Artuculo</legend>
                             <h2>segundo</h2>
@@ -48,7 +58,7 @@
                     </fieldset>
                 </div>
                 <br>
-                <div class="tercero">
+                <div class="principal">
                     <fieldset>
                         <legend>Articulo</legend>
                             <h2>tercero</h2>
@@ -59,6 +69,23 @@
                     </fieldset>
                 </div>
             </div> 
+            <div class="dropdown">
+                    <button class="dropbtn">Dropdown</button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
             <footer>
             
             </footer>   
