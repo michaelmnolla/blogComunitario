@@ -1,0 +1,135 @@
+html{
+  box-sizing: border-box;
+}
+*, *:before,*::after{
+  box-sizing: inherit;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: verdana, geneva, serif;
+  background-color: rgba(95, 0, 149, 0.61)
+}
+header{
+  padding: 20px  0;
+}
+div.contenedor {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*navegacion*/
+.navegacion{
+  background-color:rgba(85, 85, 85, 0.67) ;
+}
+nav.arriba{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+nav.arriba ul{
+  list-style: none;
+}
+nav.arriba > ul > li{
+  float: left;
+}
+nav.arriba ul::after{
+  content: '';
+  display:block;
+  clear: both;
+}
+nav.arriba ul li a{
+  display: inline-block;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+}
+nav.arriba ul li a:hover{
+  background-color: black;
+  color: #c795ff;
+}
+/* segundo nivel*/
+nav.arriba ul ul{
+  position: absolute;
+  top: 100%;
+  background-color: rgba(24, 19, 80, 0.7);
+  display: none;
+}
+nav.arriba ul li:hover >ul{
+  display: block;
+}
+nav.arriba ul li:hover{
+    background-color: rgba(24, 19, 80, 0.7);
+}
+/*artulos de portada*/
+h2{
+  margin-bottom: 2%;
+}
+hr{
+  margin-bottom: 2%;
+}
+article{
+  padding: 2%;
+  margin-bottom: 5%;
+  width: 80%;
+  float: right;
+  text-align: center;
+  background-color: rgba(0, 53, 255, 0.51);
+}
+aside{
+  padding: 2%;
+  margin-top: 10%;
+  width: 18%;
+  background-color: rgba(119, 205, 65, 0.31);
+  text-align: center;
+}
+aside ul{
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+aside ul li a{
+  width: 100%;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+
+  color: black;
+}
+aside ul li:hover{
+  background-color: gray;
+  font-size: 30px;
+  color: rgb(184, 255, 150);
+}
+
+div.nosotros{
+  width:18%;
+  background-color: rgba(76, 158, 66, 0.39);
+  color: black;
+  margin-top: 5%;
+  text-align: center;
+  padding: 1%;
+}
+.menu{
+  background-color: rgb(124, 6, 135);
+}
+nav.abajo{
+  width:100%;
+  margin: 0 auto;
+
+}
+nav.abajo ul{
+  list-style: none;
+
+}
+nav.abajo > ul > li {
+  float:left;
+}
+
+nav.abajo ul li a:hover{
+  background-color: black;
+
+}
